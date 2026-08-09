@@ -1,0 +1,26 @@
+[
+  {
+    "image": "/images/hero/hero-1.png",
+    "tag": "Welcome Home",
+    "title": "A Place of<br><em>Grace &amp; Truth</em>",
+    "subtitle": "Where every soul finds belonging and every heart finds peace."
+  },
+  {
+    "image": "/images/hero/hero-2.png",
+    "tag": "Community & Worship",
+    "title": "Rooted in<br><em>Faith &amp; Love</em>",
+    "subtitle": "Come as you are. Grow together in the Spirit."
+  },
+  {
+    "image": "/images/hero/hero-3.png",
+    "tag": "Service & Mission",
+    "title": "Serving Our<br><em>Community</em>",
+    "subtitle": "Going beyond our walls to bring light to the world."
+  },
+  {
+    "image": "/images/hero/hero-4.png",
+    "tag": "Sunday Worship",
+    "title": "Lift Your Voice<br><em>in Praise</em>",
+    "subtitle": "Join our vibrant worship community every Sunday morning."
+  }
+]

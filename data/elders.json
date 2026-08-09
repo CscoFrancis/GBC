@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Samuel Oluoch",
+    "role": "Senior Pastor and Elder",
+    "bio": "Serving the congregation for over 20 years with wisdom and a shepherd's heart.",
+    "image": "/images/team/elder-1.jpg"
+  },
+  {
+    "name": "Emmanuel Temba",
+    "role": "Pastor - Ruiru Church Plant",
+    "bio": "Leading Ruiru ministry and discipleship with passion and grace.",
+    "image": "/images/team/elder-2.jpg"
+  },
+  {
+    "name": "Peter Gathathai",
+    "role": "Elder",
+    "bio": "Stewarding resources faithfully for 15 years as a trusted elder.",
+    "image": "/images/team/elder-3.jpg"
+  },
+  {
+    "name": "Steve Okong'o",
+    "role": "Pastor — Mombasa Church Plant",
+    "bio": "Caring for the vulnerable and serving the community with tireless dedication.",
+    "image": "/images/team/elder-4.jpg"
+  }
+]

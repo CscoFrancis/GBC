@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+/* Dark mode is toggled manually via [data-theme="dark"] on <html>,
+   not via prefers-color-scheme, matching the original site's theme pill. */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+:root {
+  --bg: #f8f7f4;
+  --bg-alt: #eeebe4;
+  --text: #141414;
+  --muted: #5a5a5a;
+  --green: #1a4a2e;
+  --green-mid: #2d6a4f;
+  --green-lt: #52b788;
+  --border: #d6d1c8;
+  --card: #ffffff;
+  --overlay: rgba(0, 0, 0, 0.55);
+}
+
+[data-theme="dark"] {
+  --bg: #0c0c0c;
+  --bg-alt: #141414;
+  --text: #eeebe4;
+  --muted: #888888;
+  --green: #52b788;
+  --green-mid: #74c69d;
+  --green-lt: #95d5b2;
+  --border: #282828;
+  --card: #181818;
+  --overlay: rgba(0, 0, 0, 0.72);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-alt: var(--bg-alt);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-green: var(--green);
+  --color-green-mid: var(--green-mid);
+  --color-green-lt: var(--green-lt);
+  --color-border: var(--border);
+  --color-card: var(--card);
+
+  --font-display: var(--font-cormorant), serif;
+  --font-body: var(--font-dm-sans), sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  transition:
+    background 0.4s,
+    color 0.4s;
+}
