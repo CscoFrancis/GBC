@@ -6,7 +6,7 @@
   "email": "info@gracefellowship.co.ke",
   "serviceTime1": "Sunday: 10:00 AM & 1:00 PM",
   "serviceTime2": "Wednesday Bible Study: 7:00 PM",
-  "topbar": "Join us every <strong>Sunday at 10:00 AM - 1:00 PM & 3:00PM - 5:00PM</strong> · Wednesday Group Prayers at <strong>7:00 PM</strong> · Thursday Bible Study at <strong>7:00 PM</strong>",
+  "topbar": "<div style=\"display:flex; justify-content:center; align-items:center; gap:1.5rem; flex-wrap:wrap;\"><span>📞 +254 715 621 019</span><span>✉️ gracebaptistnairobi@gmail.com</span><span>📷 @gracebaptistchurchnairobi9684</span></div>",
   "statFounded": "2000",
   "statMembers": "60+",
   "statMinistries": "4+",

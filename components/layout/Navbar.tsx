@@ -19,13 +19,13 @@ export function Navbar({ churchName, churchSub, navigation }: NavbarProps) {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <nav className="fixed inset-x-0 top-9 z-[1000] flex h-[70px] items-center justify-between border-b border-border bg-bg/94 px-[5%] backdrop-blur-md transition-colors duration-400">
+    <nav className="fixed inset-x-0 top-10 z-[1000] flex h-[70px] items-center justify-between border-b border-border bg-bg/94 px-[5%] backdrop-blur-md transition-colors duration-400">
       <Link href="/" className="flex items-center gap-[11px]">
-        <span className="flex h-[38px] w-[38px] shrink-0 items-center justify-center rounded-full bg-green text-base text-white">
+        <span className="flex h-[48px] w-[38px] shrink-0 items-center justify-center rounded-full bg-green text-base text-white">
           ✝
         </span>
         <span className="flex flex-col leading-tight">
-          <span className="font-display text-[1.15rem] font-semibold text-text">
+          <span className="font-display text-[2rem] font-semibold text-text">
             {churchName}
           </span>
           <span className="text-[0.62rem] tracking-[0.18em] text-muted uppercase">
