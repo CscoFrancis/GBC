@@ -8,9 +8,9 @@ import { ValuesGrid } from "@/components/sections/about/ValuesGrid";
 import { Section } from "@/components/ui/Section";
 
 export const metadata: Metadata = {
-  title: "About Us | Grace Fellowship Church",
+  title: "About Us | Grace Baptist Church",
   description:
-    "Learn the story of Grace Fellowship Church, our history since 1982, and the core values that guide our congregation.",
+    "Learn the story of Grace Baptist Church and the core values that guide our congregation.",
 };
 
 export default function AboutPage() {
@@ -21,11 +21,10 @@ export default function AboutPage() {
   return (
     <>
       <PageHero
-        image="/images/about/about-hero.jpg"
+        image="/images/about/AboutUS.png"
         eyebrow="About Us"
         title="Our Story"
       />
-
       <Section>
         <HistoryContent settings={settings} />
       </Section>
