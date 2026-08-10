@@ -25,7 +25,7 @@ export function Navbar({ churchName, churchSub, navigation }: NavbarProps) {
           ✝
         </span>
         <span className="flex flex-col leading-tight">
-          <span className="font-display text-[2rem] font-semibold text-text">
+          <span className="font-display text-[1.2rem] font-semibold text-text">
             {churchName}
           </span>
           <span className="text-[0.62rem] tracking-[0.18em] text-muted uppercase">
